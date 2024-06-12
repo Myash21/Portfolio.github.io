@@ -105,6 +105,8 @@ p {
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-item:hover {
@@ -116,6 +118,11 @@ p {
     border-radius: 10px; /* Reduced border-radius */
     margin-bottom: 1rem;
 }
+
+.portfolio-item .btn.live-link-btn {
+    margin-top: auto; /* Align the button to the bottom of the container */
+}
+
 
 .project-details {
     position: absolute;
