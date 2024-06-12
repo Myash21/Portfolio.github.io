@@ -50,8 +50,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #fff; /* Change the hover color to white */
-    background-color: black; /* Change the background color on hover */
+    color: #000; /* Change the hover color to black */
+    background-color: white; /* Change the background color on hover */
+    padding: 5px; /* Add padding to make the color change visible */
 }
 
 .section-title {
@@ -73,11 +74,17 @@ p {
 }
 
 .skills-list li {
-    background: #008080; /* Teal background */
+    background: #000; /* Black background */
     color: #fff; /* White text */
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.skills-list li:hover {
+    background-color: #008080; /* Teal background on hover */
+    color: #fff; /* White text on hover */
 }
 
 .portfolio-items {
