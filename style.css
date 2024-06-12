@@ -22,7 +22,6 @@ header {
     padding: 1rem 0;
 }
 
-
 header .container {
     display: flex;
     justify-content: space-between;
@@ -54,7 +53,6 @@ nav ul li a:hover {
     color: #fff; /* Change the hover color to white */
     background-color: black; /* Change the background color on hover */
 }
-
 
 .section-title {
     text-align: center;
@@ -140,19 +138,17 @@ p {
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-
 .btn:hover {
     background-color: #008080;
     color: #fff;
 }
 
-.contact h2, .project h2, .about h2, .hero h2 {
+.contact h2, .projects h2, .about h2, .hero h2 {
     font-size: 36px;
     margin-bottom: 2rem;
 }
 
-.hero, .about, .project, .contact {
+.hero, .about, .projects, .contact {
     background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
     padding: 1rem;
     margin: 50px;
