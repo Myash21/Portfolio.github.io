@@ -204,10 +204,17 @@ p {
 }
 
 .about-content {
-    max-width: 600px;
+    max-width: 100%; /* Adjusted maximum width */
     margin: 0 auto;
     line-height: 1.6;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-content {
+        font-size: 1.2rem; /* Decrease font size for smaller screens */
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     header .container {
