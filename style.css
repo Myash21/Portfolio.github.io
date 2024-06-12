@@ -64,6 +64,22 @@ p {
     margin-bottom: 2rem;
 }
 
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.skills-list li {
+    background: #008080; /* Teal background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
 .portfolio-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted box size */
@@ -113,8 +129,8 @@ p {
 }
 
 .social-icons img {
-    width: 30px; /* Reduced width */
-    height: 30px; /* Reduced height */
+    width: 24px; /* Reduced width */
+    height: 24px; /* Reduced height */
 }
 
 .hero-content {
@@ -143,12 +159,12 @@ p {
     color: #fff;
 }
 
-.contact h2, .projects h2, .about h2, .hero h2 {
+.contact h2, .projects h2, .skills h2, .about h2, .hero h2 {
     font-size: 36px;
     margin-bottom: 2rem;
 }
 
-.hero, .about, .projects, .contact {
+.hero, .about, .skills, .projects, .contact {
     background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
     padding: 1rem;
     margin: 50px;
